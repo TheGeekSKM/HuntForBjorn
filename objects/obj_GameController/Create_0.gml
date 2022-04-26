@@ -1,5 +1,11 @@
 //Switch Button Code
-shootState = false;
+enum shootMode
+{
+    move,
+    shoot
+}
+
+shootState = shootMode.move;
 
 //GUI Code
 hovering = false;

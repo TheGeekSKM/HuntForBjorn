@@ -22,3 +22,9 @@ if (x > (room_width - (sprite_width / 2)))   {x = (room_width - (sprite_width / 
 if (x < (sprite_width / 2))					 {x = (sprite_width / 2);}
 if (y > (room_height - (sprite_height / 2))) {y = (room_height - (sprite_height / 2));}
 if (y < (sprite_height / 2))				 {y = (sprite_height / 2);}
+
+if (shootStateVariable != 0 && instance_exists(obj_Player))
+{
+	x = obj_Player.x;
+	y = obj_Player.y;
+}

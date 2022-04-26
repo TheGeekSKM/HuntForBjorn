@@ -8,7 +8,8 @@
     {"id":{"name":"pArt_Background","path":"sprites/pArt_Background/pArt_Background.yy",},"order":3,},
     {"id":{"name":"pArt_Mouse","path":"sprites/pArt_Mouse/pArt_Mouse.yy",},"order":6,},
     {"id":{"name":"pArt_Obstacle","path":"sprites/pArt_Obstacle/pArt_Obstacle.yy",},"order":2,},
-    {"id":{"name":"obj_Mouse","path":"objects/obj_Mouse/obj_Mouse.yy",},"order":4,},
+    {"id":{"name":"obj_Camera","path":"objects/obj_Camera/obj_Camera.yy",},"order":5,},
+    {"id":{"name":"obj_Mouse","path":"objects/obj_Mouse/obj_Mouse.yy",},"order":2,},
     {"id":{"name":"obj_Target","path":"objects/obj_Target/obj_Target.yy",},"order":1,},
     {"id":{"name":"pArt_Player","path":"sprites/pArt_Player/pArt_Player.yy",},"order":1,},
     {"id":{"name":"obj_Wall","path":"objects/obj_Wall/obj_Wall.yy",},"order":2,},
@@ -53,7 +54,7 @@
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/ProgrammerArt.yy","order":1,"resourceVersion":"1.0","name":"ProgrammerArt","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/PlayerObjects.yy","order":1,"resourceVersion":"1.0","name":"PlayerObjects","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Objects/Buttons.yy","order":5,"resourceVersion":"1.0","name":"Buttons","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Buttons.yy","order":4,"resourceVersion":"1.0","name":"Buttons","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
