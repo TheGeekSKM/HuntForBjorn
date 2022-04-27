@@ -45,7 +45,7 @@ if (mouse_check_button_pressed(mb_left))
 
 #region Sprite Update Code
 
-if (obj_GameController.shootState == 1)
+if (obj_GameController.shootState == shootMode.shoot)
 {
     sprite_index = switchStateTwoSprite;
 }

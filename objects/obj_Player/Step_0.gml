@@ -63,6 +63,25 @@ else if (shootMovement == 1)
 
 #endregion
 
+#region Firing
+
+firingDelay = firingDelay - 1;
+if (mouse_check_button(mb_left)) 
+	&& (firingDelay < 0) 
+	&& (obj_GameController.shootState == shootMode.shoot)
+	&& (!obj_GameController.hovering)
+{
+	firingDelay = 5;
+	with (instance_create_layer(x, y, "Bullets", obj_Projectile))
+	{
+		speed = 5;
+		direction = other.image_angle + random_range(-5, 5);
+		image_angle = direction;
+	}
+}
+
+#endregion
+
 
 
 

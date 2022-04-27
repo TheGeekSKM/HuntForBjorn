@@ -25,3 +25,5 @@ ddMouse = 0;
 targetObj = obj_Target;
 wallObj = obj_Wall;
 
+firingDelay = 0;
+
