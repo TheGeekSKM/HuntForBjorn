@@ -5,8 +5,8 @@ var shootMovement = obj_GameController.shootState;
 if (shootMovement == 0)
 {
 	pd = point_direction(x, y, targetObj.x, targetObj.y);
-dd = angle_difference(image_angle, pd);
-image_angle -= min(abs(dd), 10) * sign(dd);
+    dd = angle_difference(image_angle, pd);
+	image_angle -= min(abs(dd), 10) * sign(dd);
 		
 		
 if (distance_to_point(targetObj.x,targetObj.y)>rundist)
@@ -55,6 +55,10 @@ if (y < (sprite_height / 2))				 {y = (sprite_height / 2);}
 else if (shootMovement == 1)
 {
 	speed = 0;
+	pdMouse = point_direction(x, y, mouse_x, mouse_y);
+    ddMouse = angle_difference(image_angle, pdMouse);
+	image_angle -= min(abs(ddMouse), 10) * sign(ddMouse);
+
 }
 
 #endregion

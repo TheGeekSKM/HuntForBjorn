@@ -16,6 +16,10 @@ pd = 0;
 
 dd = 0;
 
+pdMouse = 0;
+
+ddMouse = 0;
+
 #endregion
 
 targetObj = obj_Target;

@@ -28,3 +28,5 @@ if (shootStateVariable != 0 && instance_exists(obj_Player))
 	x = obj_Player.x;
 	y = obj_Player.y;
 }
+
+//Frank will get back to me
