@@ -1,3 +1,4 @@
+randomize();
 #region Movement Variables
 
 rundist = 32;
@@ -26,7 +27,7 @@ targetObj = obj_Target;
 wallObj = obj_Wall;
 
 firingDelay = 0;
-enableRandomSpawn = 1;
+
 
 
 //Random Spawn

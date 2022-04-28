@@ -26,8 +26,8 @@ enum enemyState
 global.mp_grid = 0;
 
 //Random Generation Code
-wallSpawnPercentage = 2;
-enemySpawnPercentage = 5;
+wallSpawnPercentage = 5;
+enemySpawnPercentage = 2;
 
 arr_Walls[0] = noone;
 arr_Enemies[0] = noone;
@@ -46,6 +46,7 @@ for (var _x = 32; _x < room_width; _x += 16)
 		
 		if (_spawnDecision == 1)
 		{
+			#region Basic Enemy Spawn
 			var _decision = irandom_range(1, 100)
 			{
 				if (_decision < enemySpawnPercentage)
@@ -54,9 +55,11 @@ for (var _x = 32; _x < room_width; _x += 16)
 					enemyArrayIndex++;
 				}
 			}
+			#endregion
 		}
 		else
 		{
+			#region Wall Spawn
 			var _decision = irandom_range(1, 100);
 		
 			if (_decision < wallSpawnPercentage)
@@ -64,6 +67,7 @@ for (var _x = 32; _x < room_width; _x += 16)
 				arr_Walls[wallsArrayIndex] = instance_create_layer(_x, _y, "Walls", obj_Wall);
 				wallsArrayIndex++;
 			}
+			#endregion
 		}
 	}
 }
