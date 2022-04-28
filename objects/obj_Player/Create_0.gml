@@ -31,6 +31,8 @@ firingDelay = 0;
 hp = 10;
 flash = 0;
 
+//Inventory
+
 
 
 //Random Spawn

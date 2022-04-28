@@ -9,16 +9,28 @@ if (objHealth <= 0)
 
 if (distance_to_object(obj_Player) < followDis)
 {
-	currentState = enemyState.chase;
+	obj_GameController.foundEggars = true;
+	
+	if (distance_to_object(obj_BasicEnemy) < shootDis)
+	{
+		currentState = enemyState.fire;
+	}
+	else
+	{
+		currentState = enemyState.chase;
+	}
+	
 }
 else
 {
-	currentState = enemyState.wander;
-}
-
-if (distance_to_object(obj_BasicEnemy) < shootDis)
-{
-	currentState = enemyState.fire;
+	if (distance_to_object(obj_BasicEnemy) < shootDis)
+	{
+		currentState = enemyState.fire;
+	}
+	else
+	{
+		currentState = enemyState.wander;
+	}
 }
 
 #endregion
@@ -27,13 +39,15 @@ if (distance_to_object(obj_BasicEnemy) < shootDis)
 
 if (currentState == enemyState.wander)
 {
-    if (wanderTimer == (timeChange * 60))
-    {
-        direction = irandom_range(0, 359);
-		speed = moveSpeed;
-        wanderTimer = 0;
-    }
-	wanderTimer++;
+    //if (wanderTimer == (timeChange * 60))
+    //{
+    //    direction = irandom_range(0, 359);
+	//	speed = moveSpeed;
+    //    wanderTimer = 0;
+    //}
+	//wanderTimer++;
+	
+	speed = 0;
     
 }
 
@@ -48,7 +62,7 @@ if (currentState == enemyState.chase && objHealth > 0)
 	
 	if (obj_GameController.useComplicatedBehavior)
 	{
-		var _foundPlayer = mp_grid_path(global.mp_grid, path, x, y, obj_Player.x, obj_Player.y, choose(0, 1));
+		var _foundPlayer = mp_grid_path(global.mp_grid, path, x, y, obj_Player.x, obj_Player.y, true);
 		if (_foundPlayer)
 		{
 			path_start(path, moveSpeed, path_action_stop, false);

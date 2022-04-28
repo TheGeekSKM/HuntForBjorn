@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "pArt_MovementButton_One",
-    "path": "sprites/pArt_MovementButton_One/pArt_MovementButton_One.yy",
+    "name": "pArt_ResearchPapers",
+    "path": "sprites/pArt_ResearchPapers/pArt_ResearchPapers.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,17 +23,15 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Buttons",
-    "path": "folders/Objects/GUI/Buttons.yy",
+    "name": "Items",
+    "path": "folders/Objects/Items.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_SwitchButton",
+  "name": "obj_ResearchPapers",
   "tags": [],
   "resourceType": "GMObject",
 }

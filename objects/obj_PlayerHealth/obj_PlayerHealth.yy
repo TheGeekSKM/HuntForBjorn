@@ -17,17 +17,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI",
-    "path": "folders/Objects/GUI.yy",
+    "name": "ParentObjects",
+    "path": "folders/Objects/ParentObjects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_DebugText",
+  "name": "obj_PlayerHealth",
   "tags": [],
   "resourceType": "GMObject",
 }

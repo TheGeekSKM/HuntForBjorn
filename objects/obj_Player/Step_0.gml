@@ -3,6 +3,10 @@ if (hp <= 0)
 	room_goto(rm_DeathScreen);
 }
 
+//if (researchPapers >= obj_GameController.requiredResearchPaper)
+//{
+//	obj_GameController.foundAllResearchPapers = true;
+//}
 
 
 var shootMovement = obj_GameController.shootState;

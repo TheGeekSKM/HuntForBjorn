@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "pArt_MovementButton_One",
-    "path": "sprites/pArt_MovementButton_One/pArt_MovementButton_One.yy",
+    "name": "pArt_ResearchPapers",
+    "path": "sprites/pArt_ResearchPapers/pArt_ResearchPapers.yy",
   },
   "solid": false,
   "visible": true,
@@ -29,11 +29,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Buttons",
-    "path": "folders/Objects/GUI/Buttons.yy",
+    "name": "GUI",
+    "path": "folders/Objects/GUI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_SwitchButton",
+  "name": "obj_ResearchPapersGUI",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_PlayerHealth",
+    "path": "objects/obj_PlayerHealth/obj_PlayerHealth.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

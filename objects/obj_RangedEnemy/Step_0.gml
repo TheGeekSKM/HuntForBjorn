@@ -7,9 +7,9 @@ if (objHealth <= 0)
 
 #region Search for Player
 
-if (distance_to_object(obj_Player) < alertDis)
+if (distance_to_object(instance_nearest(x, y, obj_PlayerHealth)) < alertDis)
 {
-	if (distance_to_object(obj_Player) < shootDis)
+	if (distance_to_object(instance_nearest(x, y, obj_PlayerHealth)) < shootDis)
 	{
 		currentEnemyState = enemyState.fire;
 	}
@@ -51,7 +51,11 @@ if (currentEnemyState == enemyState.chase && objHealth > 0)
 	
 	if (obj_GameController.useComplicatedBehavior)
 	{
-		var _foundPlayer = mp_grid_path(global.mp_grid, path, x, y, obj_Player.x, obj_Player.y, choose(0, 1));
+		var _foundPlayer = mp_grid_path(global.mp_grid, path, x, y, 
+						   instance_nearest(x, y, obj_PlayerHealth).x, 
+						   instance_nearest(x, y, obj_PlayerHealth).y, 
+						   choose(0, 1));
+						   
 		if (_foundPlayer)
 		{
 			path_start(path, moveSpeed, path_action_stop, false);
@@ -59,7 +63,9 @@ if (currentEnemyState == enemyState.chase && objHealth > 0)
 	}
 	else
 	{
-		move_towards_point(obj_Player.x, obj_Player.y, speed);
+		move_towards_point(instance_nearest(x, y, obj_PlayerHealth).x, 
+						   instance_nearest(x, y, obj_PlayerHealth).y, 
+						   speed);
 	}
 }
 
@@ -70,7 +76,10 @@ if (currentEnemyState == enemyState.chase && objHealth > 0)
 if (currentEnemyState == enemyState.fire)
 {
 	speed = 0;
-	pd = point_direction(x, y, obj_Player.x, obj_Player.y);
+	pd = point_direction(x, y, 
+						 instance_nearest(x, y, obj_PlayerHealth).x, 
+						 instance_nearest(x, y, obj_PlayerHealth).y);
+						 
     dd = angle_difference(image_angle, pd);
 	image_angle -= min(abs(dd), 10) * sign(dd);
 	
