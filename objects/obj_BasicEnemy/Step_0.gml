@@ -23,6 +23,7 @@ if (currentEnemyState == enemyState.wander)
     if (wanderTimer == (timeChange * 60))
     {
         direction = irandom_range(0, 359);
+		speed = moveSpeed;
         wanderTimer = 0;
     }
 	wanderTimer++;
@@ -33,9 +34,23 @@ if (currentEnemyState == enemyState.wander)
 
 #region Chase
 
-if (currentEnemyState == enemyState.chase)
+if (currentEnemyState == enemyState.chase && objHealth > 0)
 {
-	move_towards_point(obj_Player.x, obj_Player.y, speed);
+	
+	
+	
+	if (obj_GameController.useComplicatedBehavior)
+	{
+		var _foundPlayer = mp_grid_path(global.mp_grid, path, x, y, obj_Player.x, obj_Player.y, choose(0, 1));
+		if (_foundPlayer)
+		{
+			path_start(path, moveSpeed, path_action_stop, false);
+		}
+	}
+	else
+	{
+		move_towards_point(obj_Player.x, obj_Player.y, speed);
+	}
 }
 
 #endregion

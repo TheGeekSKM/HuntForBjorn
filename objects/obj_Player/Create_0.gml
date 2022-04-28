@@ -26,4 +26,38 @@ targetObj = obj_Target;
 wallObj = obj_Wall;
 
 firingDelay = 0;
+enableRandomSpawn = 1;
+
+
+//Random Spawn
+
+
+
+//if (enableRandomSpawn == 1)
+//{
+//	var _xSpawn = irandom_range(TS, room_width - TS);
+//	var _ySpawn = irandom_range(TS, room_height - TS);
+
+//	if (variable_instance_exists(obj_GameController, "arr_Walls"))
+//	{
+//		for (var index = array_length(obj_GameController.arr_Walls) - 1; 
+//		index >= 0; index--)
+//		{
+//			var _wall = obj_GameController.arr_Walls[index];
+//			if (!point_in_rectangle(_xSpawn, _ySpawn, _wall.bbox_left, _wall.bbox_top, _wall.bbox_left, _wall.bbox_bottom))
+//			{
+
+//				array_delete(obj_GameController.arr_Walls, index, 1);
+//				instance_destroy(_wall);
+//				x = _xSpawn;
+//				y = _ySpawn;
+//			}
+//		}
+//	}
+//}
+
+x = irandom_range(16, room_width - 16);
+y = irandom_range(16, room_height - 16);
+
+
 
