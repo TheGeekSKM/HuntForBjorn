@@ -1,7 +1,7 @@
 moveSpeed = 1;
 timeChange = 2;
 currentEnemyState = enemyState.wander;
-alertDis = 180;
+alertDis = 240;
 
 wanderTimer = 0;
 

@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 35,
+  "bbox_right": 399,
   "bbox_top": 0,
-  "bbox_bottom": 33,
+  "bbox_bottom": 299,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 36,
-  "height": 34,
+  "width": 400,
+  "height": 300,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e91e50e4-fa7e-4014-a1e1-e4ad8c42232e","path":"sprites/pArt_TreeTwoTwo/pArt_TreeTwoTwo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e91e50e4-fa7e-4014-a1e1-e4ad8c42232e","path":"sprites/pArt_TreeTwoTwo/pArt_TreeTwoTwo.yy",},"LayerId":{"name":"948649b9-a2dd-45f9-9a4d-40321d7faf86","path":"sprites/pArt_TreeTwoTwo/pArt_TreeTwoTwo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"pArt_TreeTwoTwo","path":"sprites/pArt_TreeTwoTwo/pArt_TreeTwoTwo.yy",},"resourceVersion":"1.0","name":"e91e50e4-fa7e-4014-a1e1-e4ad8c42232e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ef3690a9-9b70-4a8c-bc90-e265a98e66b2","path":"sprites/pArt_PEDeathScreen/pArt_PEDeathScreen.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ef3690a9-9b70-4a8c-bc90-e265a98e66b2","path":"sprites/pArt_PEDeathScreen/pArt_PEDeathScreen.yy",},"LayerId":{"name":"2f853608-0e7b-41b0-9a06-abf174454453","path":"sprites/pArt_PEDeathScreen/pArt_PEDeathScreen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"pArt_PEDeathScreen","path":"sprites/pArt_PEDeathScreen/pArt_PEDeathScreen.yy",},"resourceVersion":"1.0","name":"ef3690a9-9b70-4a8c-bc90-e265a98e66b2","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"pArt_TreeTwoTwo","path":"sprites/pArt_TreeTwoTwo/pArt_TreeTwoTwo.yy",},
+    "spriteId": {"name":"pArt_PEDeathScreen","path":"sprites/pArt_PEDeathScreen/pArt_PEDeathScreen.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c156df27-2d68-477d-8b7e-e1bbcef6b3a2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e91e50e4-fa7e-4014-a1e1-e4ad8c42232e","path":"sprites/pArt_TreeTwoTwo/pArt_TreeTwoTwo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a97a53a7-4447-48ca-b8ce-5c12f6393c06","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ef3690a9-9b70-4a8c-bc90-e265a98e66b2","path":"sprites/pArt_PEDeathScreen/pArt_PEDeathScreen.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"pArt_TreeTwoTwo","path":"sprites/pArt_TreeTwoTwo/pArt_TreeTwoTwo.yy",},
+    "parent": {"name":"pArt_PEDeathScreen","path":"sprites/pArt_PEDeathScreen/pArt_PEDeathScreen.yy",},
     "resourceVersion": "1.4",
-    "name": "pArt_TreeTwoTwo",
+    "name": "pArt_PEDeathScreen",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"948649b9-a2dd-45f9-9a4d-40321d7faf86","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2f853608-0e7b-41b0-9a06-abf174454453","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Environment",
-    "path": "folders/Sprites/ProgrammerArt/Environment.yy",
+    "name": "Background",
+    "path": "folders/Sprites/ProgrammerArt/Background.yy",
   },
   "resourceVersion": "1.0",
-  "name": "pArt_TreeTwoTwo",
+  "name": "pArt_PEDeathScreen",
   "tags": [],
   "resourceType": "GMSprite",
 }

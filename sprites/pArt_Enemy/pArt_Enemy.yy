@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "ProgrammerArt",
-    "path": "folders/Sprites/ProgrammerArt.yy",
+    "name": "Entities",
+    "path": "folders/Sprites/ProgrammerArt/Entities.yy",
   },
   "resourceVersion": "1.0",
   "name": "pArt_Enemy",

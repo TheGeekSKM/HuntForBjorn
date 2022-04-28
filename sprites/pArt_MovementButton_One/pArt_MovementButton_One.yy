@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "ProgrammerArt",
-    "path": "folders/Sprites/ProgrammerArt.yy",
+    "name": "GUI",
+    "path": "folders/Sprites/ProgrammerArt/GUI.yy",
   },
   "resourceVersion": "1.0",
   "name": "pArt_MovementButton_One",

@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b30558d5-f3c9-46ca-ae9b-16fc042e8a1b","path":"sprites/pArt_EnemyRanged/pArt_EnemyRanged.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b30558d5-f3c9-46ca-ae9b-16fc042e8a1b","path":"sprites/pArt_EnemyRanged/pArt_EnemyRanged.yy",},"LayerId":{"name":"4da3bb61-e179-4bdb-8d84-cbcf7aebfe77","path":"sprites/pArt_EnemyRanged/pArt_EnemyRanged.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"pArt_EnemyRanged","path":"sprites/pArt_EnemyRanged/pArt_EnemyRanged.yy",},"resourceVersion":"1.0","name":"b30558d5-f3c9-46ca-ae9b-16fc042e8a1b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2ba18c78-549c-48a2-8b1c-c28b75eb612e","path":"sprites/pArt_Eggers/pArt_Eggers.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2ba18c78-549c-48a2-8b1c-c28b75eb612e","path":"sprites/pArt_Eggers/pArt_Eggers.yy",},"LayerId":{"name":"25c650fc-f17e-48f4-85b7-b4ef5435c038","path":"sprites/pArt_Eggers/pArt_Eggers.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"pArt_Eggers","path":"sprites/pArt_Eggers/pArt_Eggers.yy",},"resourceVersion":"1.0","name":"2ba18c78-549c-48a2-8b1c-c28b75eb612e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"pArt_EnemyRanged","path":"sprites/pArt_EnemyRanged/pArt_EnemyRanged.yy",},
+    "spriteId": {"name":"pArt_Eggers","path":"sprites/pArt_Eggers/pArt_Eggers.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d13a2193-dd02-4be7-8d0a-fb4bddb91d7f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b30558d5-f3c9-46ca-ae9b-16fc042e8a1b","path":"sprites/pArt_EnemyRanged/pArt_EnemyRanged.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3598b291-0d45-48b7-b9d1-733d8f004a4e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2ba18c78-549c-48a2-8b1c-c28b75eb612e","path":"sprites/pArt_Eggers/pArt_Eggers.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"pArt_EnemyRanged","path":"sprites/pArt_EnemyRanged/pArt_EnemyRanged.yy",},
+    "parent": {"name":"pArt_Eggers","path":"sprites/pArt_Eggers/pArt_Eggers.yy",},
     "resourceVersion": "1.4",
-    "name": "pArt_EnemyRanged",
+    "name": "pArt_Eggers",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4da3bb61-e179-4bdb-8d84-cbcf7aebfe77","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"25c650fc-f17e-48f4-85b7-b4ef5435c038","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/ProgrammerArt/Entities.yy",
   },
   "resourceVersion": "1.0",
-  "name": "pArt_EnemyRanged",
+  "name": "pArt_Eggers",
   "tags": [],
   "resourceType": "GMSprite",
 }

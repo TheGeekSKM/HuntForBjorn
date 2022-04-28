@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "ProgrammerArt",
-    "path": "folders/Sprites/ProgrammerArt.yy",
+    "name": "Environment",
+    "path": "folders/Sprites/ProgrammerArt/Environment.yy",
   },
   "resourceVersion": "1.0",
   "name": "pArt_TreeTwoOne",
