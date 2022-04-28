@@ -28,6 +28,9 @@ wallObj = obj_Wall;
 
 firingDelay = 0;
 
+hp = 10;
+flash = 0;
+
 
 
 //Random Spawn
@@ -58,7 +61,9 @@ firingDelay = 0;
 //}
 
 x = irandom_range(16, room_width - 16);
-y = irandom_range(16, room_height - 16);
+y = irandom_range(0, 32);
+
+
 
 
 

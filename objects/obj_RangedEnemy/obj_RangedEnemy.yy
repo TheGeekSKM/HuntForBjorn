@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "pArt_Obstacle",
-    "path": "sprites/pArt_Obstacle/pArt_Obstacle.yy",
+    "name": "pArt_EnemyRanged",
+    "path": "sprites/pArt_EnemyRanged/pArt_EnemyRanged.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_Health",
-    "path": "objects/obj_Health/obj_Health.yy",
+    "name": "obj_BasicEnemy",
+    "path": "objects/obj_BasicEnemy/obj_BasicEnemy.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,15 +25,16 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Environment",
-    "path": "folders/Objects/Environment.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Wall",
+  "name": "obj_RangedEnemy",
   "tags": [],
   "resourceType": "GMObject",
 }

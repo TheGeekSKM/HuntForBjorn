@@ -9,7 +9,15 @@ if (objHealth <= 0)
 
 if (distance_to_object(obj_Player) < alertDis)
 {
-	currentEnemyState = enemyState.chase;
+	if (distance_to_object(obj_Player) < shootDis)
+	{
+		currentEnemyState = enemyState.fire;
+	}
+	else
+	{
+		currentEnemyState = enemyState.chase;
+	}
+	
 }
 else
 {
@@ -52,6 +60,30 @@ if (currentEnemyState == enemyState.chase && objHealth > 0)
 	else
 	{
 		move_towards_point(obj_Player.x, obj_Player.y, speed);
+	}
+}
+
+#endregion
+
+#region Firing
+
+if (currentEnemyState == enemyState.fire)
+{
+	speed = 0;
+	pd = point_direction(x, y, obj_Player.x, obj_Player.y);
+    dd = angle_difference(image_angle, pd);
+	image_angle -= min(abs(dd), 10) * sign(dd);
+	
+	firingDelay = firingDelay - 1;
+	if (firingDelay < 0) 
+	{
+		firingDelay = 10;
+		with (instance_create_layer(x, y, "EnemyBullets", obj_EnemyProjectile))
+		{
+			speed = 5;
+			direction = other.image_angle + random_range(-5, 5);
+			image_angle = direction;
+		}
 	}
 }
 

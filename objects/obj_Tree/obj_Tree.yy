@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "pArt_Obstacle",
-    "path": "sprites/pArt_Obstacle/pArt_Obstacle.yy",
+    "name": "pArt_TreeLarge",
+    "path": "sprites/pArt_TreeLarge/pArt_TreeLarge.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_Health",
-    "path": "objects/obj_Health/obj_Health.yy",
+    "name": "obj_Wall",
+    "path": "objects/obj_Wall/obj_Wall.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,6 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
@@ -33,7 +34,7 @@
     "path": "folders/Objects/Environment.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Wall",
+  "name": "obj_Tree",
   "tags": [],
   "resourceType": "GMObject",
 }

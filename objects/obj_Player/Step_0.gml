@@ -1,3 +1,10 @@
+if (hp <= 0)
+{
+	room_goto(rm_DeathScreen);
+}
+
+
+
 var shootMovement = obj_GameController.shootState;
 
 #region Movement
