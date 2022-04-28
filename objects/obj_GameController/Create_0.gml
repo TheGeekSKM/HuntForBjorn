@@ -12,3 +12,10 @@ hovering = false;
 
 //Player Stats
 bulletDamage = 1;
+
+//Enemy Code
+enum enemyState
+{
+    wander,
+    chase
+}
