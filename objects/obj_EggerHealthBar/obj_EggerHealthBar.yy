@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI",
-    "path": "folders/Objects/GUI.yy",
+    "name": "HealthBars",
+    "path": "folders/Objects/GUI/HealthBars.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_EggerHealthBar",

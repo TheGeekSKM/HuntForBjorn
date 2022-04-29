@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "pArt_EnemyRanged",
-    "path": "sprites/pArt_EnemyRanged/pArt_EnemyRanged.yy",
+    "name": "pArt_EnemyRanged2",
+    "path": "sprites/pArt_EnemyRanged2/pArt_EnemyRanged2.yy",
   },
   "solid": false,
   "visible": true,

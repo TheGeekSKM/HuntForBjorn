@@ -13,7 +13,7 @@ hovering = false;
 debug = 0;
 
 //Player Stats
-maxHealth = 20;
+
 doOnce = false;
 doOnce2 = false;
 doOnce3 = false;
@@ -31,7 +31,7 @@ enum enemyState
     chase,
 	fire
 }
-enemyBulletDamage = 1;
+enemyBulletDamage = 3;
 
 //Global Variables
 global.mp_grid = 0;
