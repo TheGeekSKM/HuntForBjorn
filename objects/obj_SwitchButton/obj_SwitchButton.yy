@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "pArt_MovementButton_One",
-    "path": "sprites/pArt_MovementButton_One/pArt_MovementButton_One.yy",
+    "name": "pArt_MovementButton_Move",
+    "path": "sprites/pArt_MovementButton_Move/pArt_MovementButton_Move.yy",
   },
   "solid": false,
   "visible": true,

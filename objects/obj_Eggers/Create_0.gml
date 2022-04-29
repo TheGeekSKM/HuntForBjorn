@@ -12,7 +12,7 @@ dd = 0;
 
 wanderTimer = 0;
 
-hp = 7;
+hp = 50;
 flash = 0;
 
 path = path_add();

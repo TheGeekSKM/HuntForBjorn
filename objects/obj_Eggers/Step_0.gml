@@ -3,11 +3,14 @@ if (hp <= 0)
 	room_goto(rm_PEDeathScreen)
 	instance_destroy();
 }
-
+if (hp >= 50)
+{
+	hp = 50
+}
 
 #region Search for Player
 
-if (distance_to_object(obj_Player) < followDis)
+if (distance_to_object(obj_Player) < followDis) && (hp > 15)
 {
 	obj_GameController.foundEggars = true;
 	
@@ -23,7 +26,7 @@ if (distance_to_object(obj_Player) < followDis)
 }
 else
 {
-	if (distance_to_object(obj_BasicEnemy) < shootDis)
+	if (distance_to_object(obj_BasicEnemy) < shootDis) && (hp > 15)
 	{
 		currentState = enemyState.fire;
 	}
@@ -31,6 +34,11 @@ else
 	{
 		currentState = enemyState.wander;
 	}
+}
+
+if (hp < 15)
+{
+	currentState = enemyState.chase;
 }
 
 #endregion

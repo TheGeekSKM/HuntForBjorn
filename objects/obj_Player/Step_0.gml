@@ -1,6 +1,12 @@
+distanceToEggers = distance_to_object(obj_Eggers);
+
 if (hp <= 0)
 {
 	room_goto(rm_DeathScreen);
+}
+if (hp > 50)
+{
+	hp = 50
 }
 
 //if (researchPapers >= obj_GameController.requiredResearchPaper)

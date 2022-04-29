@@ -28,8 +28,10 @@ wallObj = obj_Wall;
 
 firingDelay = 0;
 
-hp = 20;
+hp = 50;
 flash = 0;
+
+distanceToEggers = distance_to_object(obj_Eggers);
 
 //Inventory
 

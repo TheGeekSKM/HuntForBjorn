@@ -68,3 +68,24 @@ if (foundAllResearchPapers) && (foundEggars)
 {
 	room_goto(rm_WinScreen);
 }
+
+if (hovering == 1)
+{
+	doOnce3 = false;
+	if (!doOnce2)
+	{
+		show_debug_message("hovering");
+		obj_Target.canBeUsed = false;
+	}
+	doOnce2 = true;
+}
+else if (hovering == 0)
+{
+	doOnce2 = false;
+	if (!doOnce3)
+	{
+		show_debug_message("not hovering");
+		obj_Target.canBeUsed = true;
+	}
+	doOnce3 = true;
+}

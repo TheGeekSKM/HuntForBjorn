@@ -15,8 +15,10 @@ debug = 0;
 //Player Stats
 maxHealth = 20;
 doOnce = false;
+doOnce2 = false;
+doOnce3 = false;
 
-bulletDamage = 1;
+bulletDamage = 3;
 foundEggars = false;
 requiredResearchPaper = 10;
 foundAllResearchPapers = false;
@@ -36,8 +38,8 @@ global.mp_grid = 0;
 
 //Random Generation Code
 wallSpawnPercentage = 20;
-enemySpawnPercentage = 2;
-rangedEnemySpawnPercentage = 2;
+enemySpawnPercentage = 9;
+rangedEnemySpawnPercentage = 6;
 treeSpawnPercentage = 2;
 researchPaperSpawnPercentage = 7;
 
@@ -58,9 +60,9 @@ useComplicatedBehavior = true;
 
 #region Random Room Generation
 
-for (var _x = 64; _x < room_width; _x += 32)
+for (var _x = 128; _x < room_width - 128; _x += 32)
 {
-	for (var _y = 64; _y < room_height; _y += 32)
+	for (var _y = 128; _y < room_height - 128; _y += 32)
 	{
 		var _spawnDecision = irandom_range(1, 5);
 		
@@ -141,3 +143,6 @@ for (var _x = 128; _x < room_width; _x += 64)
 
 
 #endregion
+
+//Debug
+show_debug_message("Found Eggers: " + string(foundEggars));
