@@ -1,16 +1,18 @@
-moveSpeed = 1;
+moveSpeed = 2;
 timeChange = 2;
 currentState = enemyState.wander;
 followDis = 180;
 shootDis = 80;
 firingDelay = 0;
 
+canFire = true;
+
 pd = 0;
 dd = 0;
 
 wanderTimer = 0;
 
-objHealth = 7;
+hp = 7;
 flash = 0;
 
 path = path_add();

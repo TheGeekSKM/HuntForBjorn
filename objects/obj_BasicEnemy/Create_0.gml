@@ -8,4 +8,6 @@ wanderTimer = 0;
 objHealth = 7;
 flash = 0;
 
+damageValue = 3;
+
 path = path_add();

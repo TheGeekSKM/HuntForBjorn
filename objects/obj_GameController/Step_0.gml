@@ -18,3 +18,53 @@ if (researchPaperItems >= requiredResearchPaper)
 {
 	foundAllResearchPapers = true;
 }
+
+if (foundEggars)
+{
+	if (!doOnce)
+	{
+		#region Spawn
+		for (var _x = 64; _x < room_width; _x += 32)
+		{
+			for (var _y = 64; _y < room_height; _y += 32)
+			{
+				var _spawnDecision = irandom_range(1, 5);
+		
+				if (_spawnDecision == 1)
+				{
+					#region Basic Enemy Spawn
+					var _decision = irandom_range(1, 100)
+			
+					if (_decision < enemySpawnPercentage)
+					{
+						arr_Enemies[enemyArrayIndex] = instance_create_layer(_x, _y, "Enemies", obj_BasicEnemy);
+						enemyArrayIndex++;
+						enemyCount++;
+					}
+			
+					#endregion
+				}
+				else if (_spawnDecision == 2)
+				{
+					#region Ranged Enemy
+					var _decision = irandom_range(1, 100)
+			
+					if (_decision < rangedEnemySpawnPercentage)
+					{
+						arr_Enemies[enemyArrayIndex] = instance_create_layer(_x, _y, "Enemies", obj_RangedEnemy);
+						enemyArrayIndex++;
+						enemyCount++;
+					}
+					#endregion
+				}
+			}
+		}
+		#endregion
+	}
+	doOnce = true;
+}
+
+if (foundAllResearchPapers) && (foundEggars)
+{
+	room_goto(rm_WinScreen);
+}

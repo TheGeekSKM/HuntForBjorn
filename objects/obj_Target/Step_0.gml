@@ -1,7 +1,10 @@
 var beingHovered = obj_GameController.hovering;
 var shootStateVariable = obj_GameController.shootState;
 
-if (mouse_check_button(mb_left) && !beingHovered && shootStateVariable == 0) 
+if (mouse_check_button(mb_left)) 
+	&& (!beingHovered) 
+	&& (shootStateVariable == 0)
+	&& (obj_GameController.shootState == shootMode.move)
 
 {
 	

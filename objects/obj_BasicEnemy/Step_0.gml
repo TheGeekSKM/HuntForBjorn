@@ -27,6 +27,7 @@ if (currentEnemyState == enemyState.wander)
         direction = irandom_range(0, 359);
 		speed = moveSpeed;
         wanderTimer = 0;
+		
     }
 	wanderTimer++;
     

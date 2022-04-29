@@ -6,3 +6,6 @@ draw_text_color(x, y, "x " + string(obj_GameController.researchPaperItems),
 
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
+
+
+

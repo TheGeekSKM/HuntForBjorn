@@ -1,4 +1,4 @@
-if (objHealth <= 0)
+if (hp <= 0)
 {
 	room_goto(rm_PEDeathScreen)
 	instance_destroy();
@@ -55,7 +55,7 @@ if (currentState == enemyState.wander)
 
 #region Chase
 
-if (currentState == enemyState.chase && objHealth > 0)
+if (currentState == enemyState.chase && hp > 0)
 {
 	
 	
@@ -78,7 +78,7 @@ if (currentState == enemyState.chase && objHealth > 0)
 
 #region Firing
 
-if (currentState == enemyState.fire)
+if (currentState == enemyState.fire) && (canFire)
 {
 	speed = 0;
 	pd = point_direction(x, y, instance_nearest(x, y, obj_BasicEnemy).x, instance_nearest(x, y, obj_BasicEnemy).y);

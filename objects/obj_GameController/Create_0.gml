@@ -13,6 +13,9 @@ hovering = false;
 debug = 0;
 
 //Player Stats
+maxHealth = 20;
+doOnce = false;
+
 bulletDamage = 1;
 foundEggars = false;
 requiredResearchPaper = 10;
@@ -32,7 +35,7 @@ enemyBulletDamage = 1;
 global.mp_grid = 0;
 
 //Random Generation Code
-wallSpawnPercentage = 10;
+wallSpawnPercentage = 20;
 enemySpawnPercentage = 2;
 rangedEnemySpawnPercentage = 2;
 treeSpawnPercentage = 2;

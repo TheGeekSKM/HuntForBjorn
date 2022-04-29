@@ -86,7 +86,7 @@ if (currentEnemyState == enemyState.fire)
 	firingDelay = firingDelay - 1;
 	if (firingDelay < 0) 
 	{
-		firingDelay = 10;
+		firingDelay = 20;
 		with (instance_create_layer(x, y, "EnemyBullets", obj_EnemyProjectile))
 		{
 			speed = 5;

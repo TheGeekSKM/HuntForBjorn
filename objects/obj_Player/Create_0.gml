@@ -28,7 +28,7 @@ wallObj = obj_Wall;
 
 firingDelay = 0;
 
-hp = 10;
+hp = 20;
 flash = 0;
 
 //Inventory
