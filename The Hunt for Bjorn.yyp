@@ -3,6 +3,7 @@
     {"id":{"name":"obj_SwitchButton","path":"objects/obj_SwitchButton/obj_SwitchButton.yy",},"order":0,},
     {"id":{"name":"obj_Eggers","path":"objects/obj_Eggers/obj_Eggers.yy",},"order":0,},
     {"id":{"name":"pArt_QuitButton","path":"sprites/pArt_QuitButton/pArt_QuitButton.yy",},"order":8,},
+    {"id":{"name":"spr_FloorTiles","path":"sprites/spr_FloorTiles/spr_FloorTiles.yy",},"order":3,},
     {"id":{"name":"obj_GUIText","path":"objects/obj_GUIText/obj_GUIText.yy",},"order":3,},
     {"id":{"name":"obj_DebugText","path":"objects/obj_DebugText/obj_DebugText.yy",},"order":0,},
     {"id":{"name":"pArt_Enemy","path":"sprites/pArt_Enemy/pArt_Enemy.yy",},"order":0,},
