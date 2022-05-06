@@ -1,4 +1,4 @@
-var beingHovered = obj_GameController.hovering;
+//var beingHovered = obj_GameController.hovering;
 var shootStateVariable = obj_GameController.shootState;
 
 

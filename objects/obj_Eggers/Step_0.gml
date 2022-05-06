@@ -10,7 +10,7 @@ if (hp >= 50)
 
 #region Search for Player
 
-if (distance_to_object(obj_Player) < followDis) && (hp > 15)
+if (distance_to_object(obj_Player) < followDis)
 {
 	obj_GameController.foundEggars = true;
 	
@@ -26,7 +26,8 @@ if (distance_to_object(obj_Player) < followDis) && (hp > 15)
 }
 else
 {
-	if (distance_to_object(obj_BasicEnemy) < shootDis) && (hp > 15)
+	obj_GameController.foundEggars = false;
+	if (distance_to_object(obj_BasicEnemy) < shootDis)
 	{
 		currentState = enemyState.fire;
 	}

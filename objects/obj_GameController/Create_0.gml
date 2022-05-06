@@ -38,8 +38,8 @@ global.mp_grid = 0;
 
 //Random Generation Code
 wallSpawnPercentage = 20;
-enemySpawnPercentage = 9;
-rangedEnemySpawnPercentage = 6;
+enemySpawnPercentage = 3;
+rangedEnemySpawnPercentage = 9;
 treeSpawnPercentage = 2;
 researchPaperSpawnPercentage = 7;
 
