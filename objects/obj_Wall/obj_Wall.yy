@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "pArt_Obstacle",
-    "path": "sprites/pArt_Obstacle/pArt_Obstacle.yy",
+    "name": "spr_Crate",
+    "path": "sprites/spr_Crate/spr_Crate.yy",
   },
   "solid": false,
   "visible": true,
