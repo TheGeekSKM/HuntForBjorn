@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "pArt_Eggers",
-    "path": "sprites/pArt_Eggers/pArt_Eggers.yy",
+    "name": "spr_Eggers",
+    "path": "sprites/spr_Eggers/spr_Eggers.yy",
   },
   "solid": false,
   "visible": true,

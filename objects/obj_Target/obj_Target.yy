@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "pArt_Target",
-    "path": "sprites/pArt_Target/pArt_Target.yy",
+    "name": "spr_Target",
+    "path": "sprites/spr_Target/spr_Target.yy",
   },
   "solid": false,
   "visible": true,
