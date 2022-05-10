@@ -8,8 +8,7 @@ if (point_in_rectangle(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0),
 	{
 		
 		//Insert Do Once Code
-		sprite_index = spr_PlayPaperButton_Selected;
-		hovering = true;
+		
 		doOnce = true;
 	}
 	
@@ -18,8 +17,6 @@ if (point_in_rectangle(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0),
 else 
 {
 	doOnce = false;
-	hovering = false;
-	sprite_index = spr_PlayPaperButton;
 }
 #endregion
 
@@ -29,7 +26,7 @@ if (mouse_check_button_pressed(mb_left))
 	if (position_meeting(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), id))
 	{
 		//Insert Click Code
-		room_goto_next();
+
 	}
 	
 }
