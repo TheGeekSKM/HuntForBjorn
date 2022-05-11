@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "pArt_QuitButton",
-    "path": "sprites/pArt_QuitButton/pArt_QuitButton.yy",
+    "name": "spr_QuitButton_strip2",
+    "path": "sprites/spr_QuitButton_strip2/spr_QuitButton_strip2.yy",
   },
   "solid": false,
   "visible": true,

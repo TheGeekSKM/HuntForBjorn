@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "pArt_MainMenuButton",
-    "path": "sprites/pArt_MainMenuButton/pArt_MainMenuButton.yy",
+    "name": "spr_MainMenuButton_strip2",
+    "path": "sprites/spr_MainMenuButton_strip2/spr_MainMenuButton_strip2.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "pArt_Bullet_strip2",
-    "path": "sprites/pArt_Bullet_strip2/pArt_Bullet_strip2.yy",
+    "name": "spr_BulletFinal_strip2",
+    "path": "sprites/spr_BulletFinal_strip2/spr_BulletFinal_strip2.yy",
   },
   "solid": false,
   "visible": true,
