@@ -6,3 +6,11 @@ if (hovering)
 			  device_mouse_y_to_gui(0) - 6,
 			  "Quit Game");
 }
+else
+{
+
+	draw_set_halign(fa_middle);
+	draw_text(x + (sprite_width / 2), y - 20, "Quit Game");
+	draw_set_halign(fa_left);
+
+}

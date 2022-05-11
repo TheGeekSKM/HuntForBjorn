@@ -47,11 +47,11 @@ if (mouse_check_button_pressed(mb_left))
 
 if (obj_GameController.shootState == shootMode.shoot)
 {
-    sprite_index = switchStateTwoSprite;
+    image_index = 1;
 }
 else if (obj_GameController.shootState == 0)
 {
-    sprite_index = switchStateOneSprite;
+    image_index = 0;
 }
 
 #endregion

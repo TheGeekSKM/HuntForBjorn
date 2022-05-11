@@ -1,4 +1,4 @@
-moveSpeed = 2;
+moveSpeed = 1;
 timeChange = 2;
 currentState = enemyState.wander;
 followDis = 180;

@@ -4,10 +4,7 @@ if (point_in_rectangle(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0),
    value_x, value_y, value_x + widthButton, value_y + heightButton))
 {
     
-	with (obj_GameController)
-	{
-	    hovering = 1;
-	}
+	image_index = 1;
 	
 	if (!doOnce)
 	{
@@ -19,7 +16,7 @@ if (point_in_rectangle(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0),
 
 else 
 {
-    with (obj_GameController) { hovering = 0; }
+	image_index = 0;
 	doOnce = false;
 }
 #endregion
@@ -33,11 +30,7 @@ if (mouse_check_button_pressed(mb_left))
         //audio_play_sound(aud_ButtonSelect, 10, false);
 		
 		//Insert Click Code
-		with (obj_GameController)
-		{
-		    shootState = !shootState;
-		    show_debug_message("clicked and " + string(shootState));
-		}
+		
 		room_goto_next();
 	}
 	

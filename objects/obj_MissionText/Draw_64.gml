@@ -16,4 +16,4 @@ else
 	draw_text(x, y + 14, "You need to find Dr. Eggers")
 }
 
-draw_text(0, 36, "Prof. Eggers: " + string(round(obj_Player.distanceToEggers)) + "m");
+// draw_text(0, 36, "Prof. Eggers: " + string(round(obj_Player.distanceToEggers)) + "m");

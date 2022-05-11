@@ -79,7 +79,7 @@ if (currentState == enemyState.chase && hp > 0)
 	}
 	else
 	{
-		move_towards_point(obj_Player.x, obj_Player.y, speed);
+		move_towards_point(obj_Player.x, obj_Player.y, moveSpeed);
 	}
 }
 

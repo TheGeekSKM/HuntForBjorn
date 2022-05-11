@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "pArt_NextButton",
-    "path": "sprites/pArt_NextButton/pArt_NextButton.yy",
+    "name": "spr_NextButton_strip2",
+    "path": "sprites/spr_NextButton_strip2/spr_NextButton_strip2.yy",
   },
   "solid": false,
   "visible": true,
