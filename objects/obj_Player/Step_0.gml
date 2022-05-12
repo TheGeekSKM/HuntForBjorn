@@ -91,6 +91,7 @@ if (mouse_check_button(mb_left))
 	firingDelay = 5;
 	with (instance_create_layer(x, y, "Bullets", obj_Projectile))
 	{
+		audio_play_sound(aud_EnemyShoot, 20, false);
 		speed = 5;
 		direction = other.image_angle + random_range(-5, 5);
 		image_angle = direction;

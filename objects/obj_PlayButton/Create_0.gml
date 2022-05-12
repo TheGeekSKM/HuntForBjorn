@@ -1,7 +1,7 @@
 value_x = x;
 value_y = y;
-widthButton = 105;
-heightButton = 33;
+widthButton = 131;
+heightButton = 99;
 
 hovering = false;
 doOnce = false;

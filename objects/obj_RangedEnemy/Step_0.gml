@@ -89,6 +89,7 @@ if (currentEnemyState == enemyState.fire)
 		firingDelay = 20;
 		with (instance_create_layer(x, y, "EnemyBullets", obj_EnemyProjectile))
 		{
+			audio_play_sound(aud_EnemyShoot, 5, false);
 			speed = 5;
 			direction = other.image_angle + random_range(-5, 5);
 			image_angle = direction;

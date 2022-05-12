@@ -100,6 +100,7 @@ if (currentState == enemyState.fire) && (canFire)
 		firingDelay = 5;
 		with (instance_create_layer(x, y, "NPCBullets", obj_NPCProjectile))
 		{
+			audio_play_sound(aud_EnemyShoot, 20, false);
 			speed = 5;
 			direction = other.image_angle + random_range(-5, 5);
 			image_angle = direction;

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_PlayPaperButton",
-    "path": "sprites/spr_PlayPaperButton/spr_PlayPaperButton.yy",
+    "name": "spr_playButton_strip2",
+    "path": "sprites/spr_playButton_strip2/spr_playButton_strip2.yy",
   },
   "solid": false,
   "visible": true,
