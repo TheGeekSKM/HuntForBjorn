@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "pArt_TreeLarge",
-    "path": "sprites/pArt_TreeLarge/pArt_TreeLarge.yy",
+    "name": "spr_TableOne",
+    "path": "sprites/spr_TableOne/spr_TableOne.yy",
   },
   "solid": false,
   "visible": true,

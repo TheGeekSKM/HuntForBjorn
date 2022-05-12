@@ -1,4 +1,4 @@
-arr_TreeSprites = [ pArt_TreeLarge, pArt_TreeSmall, pArt_TreeTwoOne, pArt_TreeTwoTwo ];
+arr_TreeSprites = [ spr_TableOne, spr_TableTwo, spr_TableThree, spr_TableFour ];
 treeTexture = arr_TreeSprites[irandom_range(0, array_length(arr_TreeSprites) - 1)];
 sprite_index = treeTexture;
 
