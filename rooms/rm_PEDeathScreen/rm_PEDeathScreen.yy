@@ -19,6 +19,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_MainMenuButton","path":"objects/obj_MainMenuButton/obj_MainMenuButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":11.0,"y":214.0,"resourceVersion":"1.0","name":"inst_185E2137","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_QuitButton","path":"objects/obj_QuitButton/obj_QuitButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":276.0,"y":224.0,"resourceVersion":"1.0","name":"inst_7108DA18","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_AudioEnder","path":"objects/obj_AudioEnder/obj_AudioEnder.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-32.0,"y":96.0,"resourceVersion":"1.0","name":"inst_B2CE61D","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances_1_1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":{"name":"spr_LoseScreen_EggersDeath","path":"sprites/spr_LoseScreen_EggersDeath/spr_LoseScreen_EggersDeath.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
@@ -29,6 +30,7 @@
     {"name":"inst_7E3DF16B","path":"rooms/rm_PEDeathScreen/rm_PEDeathScreen.yy",},
     {"name":"inst_185E2137","path":"rooms/rm_PEDeathScreen/rm_PEDeathScreen.yy",},
     {"name":"inst_7108DA18","path":"rooms/rm_PEDeathScreen/rm_PEDeathScreen.yy",},
+    {"name":"inst_B2CE61D","path":"rooms/rm_PEDeathScreen/rm_PEDeathScreen.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

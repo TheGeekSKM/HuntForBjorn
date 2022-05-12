@@ -17,5 +17,5 @@ flash = 0;
 
 path = path_add();
 
-//x = irandom_range(16, room_width - 16);
-//y = irandom_range(room_height - 32, room_height - 16);
+x = irandom_range(16, room_width - 16);
+y = irandom_range(room_height - 32, room_height - 16);

@@ -37,10 +37,10 @@ enemyBulletDamage = 3;
 global.mp_grid = 0;
 
 //Random Generation Code
-wallSpawnPercentage = 40;
+wallSpawnPercentage = 25;
 enemySpawnPercentage = 3;
 rangedEnemySpawnPercentage = 9;
-treeSpawnPercentage = 5;
+treeSpawnPercentage = 4;
 researchPaperSpawnPercentage = 7;
 
 arr_Walls[0] = noone;

@@ -12,7 +12,7 @@
   "bitDepth": 1,
   "bitRate": 128,
   "duration": 0.472336,
-  "volume": 0.23,
+  "volume": 0.27,
   "preload": false,
   "parent": {
     "name": "Sounds",
