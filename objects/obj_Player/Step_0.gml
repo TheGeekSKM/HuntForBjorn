@@ -89,6 +89,7 @@ if (mouse_check_button(mb_left))
 	&& (!obj_GameController.hovering)
 {
 	firingDelay = 5;
+	ScreenShake(1, 10);
 	with (instance_create_layer(x, y, "Bullets", obj_Projectile))
 	{
 		audio_play_sound(aud_EnemyShoot, 20, false);

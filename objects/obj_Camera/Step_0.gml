@@ -24,11 +24,23 @@ switch (mode)
     break;
 }
 
+
+
 if (!boundless)
 {
-    cx = clamp(cx, 0, room_width - view_w);
-    cy = clamp(cy, 0, room_height - view_h);
+    cx = clamp(cx, 0 + buff, room_width - view_w - buff);
+    cy = clamp(cy, 0 + buff, room_height - view_h - buff);
 }
 
+#region ScreenShake
+
+cx += random_range(-shakeRemain, shakeRemain);
+cy += random_range(-shakeRemain, shakeRemain);
+shakeRemain = max(0, shakeRemain - ((1 / shakeLength) * shakeMagnitude));
+
+#endregion
+
+
 camera_set_view_pos(view_camera[0], cx, cy);
+
 

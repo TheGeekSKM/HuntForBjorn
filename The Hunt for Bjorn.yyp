@@ -80,6 +80,7 @@
     {"id":{"name":"obj_Tree","path":"objects/obj_Tree/obj_Tree.yy",},"order":1,},
     {"id":{"name":"spr_EggerHealthBar","path":"sprites/spr_EggerHealthBar/spr_EggerHealthBar.yy",},"order":2,},
     {"id":{"name":"pArt_Eggers","path":"sprites/pArt_Eggers/pArt_Eggers.yy",},"order":3,},
+    {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":0,},
     {"id":{"name":"spr_BlackPixel","path":"sprites/spr_BlackPixel/spr_BlackPixel.yy",},"order":7,},
     {"id":{"name":"spr_Crate","path":"sprites/spr_Crate/spr_Crate.yy",},"order":4,},
     {"id":{"name":"pArt_PEDeathScreen","path":"sprites/pArt_PEDeathScreen/pArt_PEDeathScreen.yy",},"order":1,},
